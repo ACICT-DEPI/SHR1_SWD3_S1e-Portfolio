@@ -1,0 +1,38 @@
+<h2 class="text-center p-3 fw-bold welcomeHeader">
+  <img src="../../assets/imgs/pingoens-removebg-preview.png" class="image" alt="...">
+  Welcome To Our Portfolios
+</h2>
+<div class="container-fluid text-center mb-3 overflow-hidden">
+  <!-- <p></p> -->
+  <div class="row justify-content-between">
+    @for (person of PersonalData ; track person.name){
+    <div class="col-sm-12 col-lg-6 mt-5">
+
+      <div class="card m-auto" style="width: 18rem;">
+        <img [src]="person.image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{person.title}}</h5>
+          <a [href]="person.websiteLink" target="_blank" class="btn websiteButton">Go to website</a>
+        </div>
+      </div>
+
+    </div>
+    }
+  </div>
+</div>
+<footer class="bg-dark text-light py-3 fs-sm-1">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <div class="footer-left">
+      <p class="mb-0">All rights reserved to &copy;The DOM Squad</p>
+    </div>
+    <div class="footer-right">
+      <p class="mb-0">
+        Mohammed Atef | Ashrqat Ali | Laila Zamil | Toqa Tamer
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- <h1 class="text-danger">hello</h1> -->

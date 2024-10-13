@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+.welcomeHeader {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  box-shadow: 0 12px 24px var(--shadow-color);
+  position: relative;
+}
+
+.image {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  left: 18rem;
+  top: 1rem;
+}
+
+.card {
+  transition: .4s ease;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.card .websiteButton {
+  background-color: #ff523e;
+  color: #fff;
+}
+
+.card .websiteButton:hover {
+
+  background-color: #da3724;
+
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+
+}
+
+@media screen and (max-width:768px) {
+  .image {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 1rem;
+    top: 2.8rem;
+  }
+}

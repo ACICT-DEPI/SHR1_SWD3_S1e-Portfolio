@@ -21,7 +21,7 @@ export class WelcomePageComponent {
     },
     {
       image:"../../assets/imgs/toqa.jpeg",
-      websiteLink:"",
+      websiteLink:"https://toqatamer-toqatamer490s-projects.vercel.app/",
       title:"Toqa's Portfolio",
     },
 
